@@ -1,0 +1,256 @@
+[debug] [2025-03-08T01:52:08.134Z] ----------------------------------------------------------------------
+[debug] [2025-03-08T01:52:08.136Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\bozoh\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-03-08T01:52:08.136Z] CLI Version:   13.33.0
+[debug] [2025-03-08T01:52:08.136Z] Platform:      win32
+[debug] [2025-03-08T01:52:08.137Z] Node Version:  v22.14.0
+[debug] [2025-03-08T01:52:08.137Z] Time:          Fri Mar 07 2025 22:52:08 GMT-0300 (Horário Padrão de Brasília)
+[debug] [2025-03-08T01:52:08.137Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-03-08T01:52:08.142Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-03-08T01:52:08.142Z] > authorizing via signed-in user (jeffersonload@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\bozoh\Downloads\mrp_red
+
+[debug] [2025-03-08T01:53:15.131Z] ----------------------------------------------------------------------
+[debug] [2025-03-08T01:53:15.133Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\bozoh\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-03-08T01:53:15.134Z] CLI Version:   13.33.0
+[debug] [2025-03-08T01:53:15.134Z] Platform:      win32
+[debug] [2025-03-08T01:53:15.134Z] Node Version:  v22.14.0
+[debug] [2025-03-08T01:53:15.134Z] Time:          Fri Mar 07 2025 22:53:15 GMT-0300 (Horário Padrão de Brasília)
+[debug] [2025-03-08T01:53:15.134Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-03-08T01:53:15.139Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-03-08T01:53:15.140Z] > authorizing via signed-in user (jeffersonload@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\bozoh\Downloads\mrp_red
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-03-08T01:56:56.843Z] Checked if tokens are valid: true, expires at: 1741402311857
+[debug] [2025-03-08T01:56:56.843Z] Checked if tokens are valid: true, expires at: 1741402311857
+[debug] [2025-03-08T01:56:56.845Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2025-03-08T01:56:57.712Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-03-08T01:56:57.712Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project mrp-red-print (mrp-red-print) 
+[info] 
+=== Firestore Setup
+[debug] [2025-03-08T01:56:59.157Z] Checked if tokens are valid: true, expires at: 1741402311857
+[debug] [2025-03-08T01:56:59.157Z] Checked if tokens are valid: true, expires at: 1741402311857
+[debug] [2025-03-08T01:56:59.157Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/mrp-red-print/services/firestore.googleapis.com [none]
+[debug] [2025-03-08T01:56:59.157Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/mrp-red-print/services/firestore.googleapis.com x-goog-quota-user=projects/mrp-red-print
+[debug] [2025-03-08T01:57:00.463Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/mrp-red-print/services/firestore.googleapis.com 200
+[debug] [2025-03-08T01:57:00.464Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/mrp-red-print/services/firestore.googleapis.com [omitted]
+[debug] [2025-03-08T01:57:00.464Z] Checked if tokens are valid: true, expires at: 1741402311857
+[debug] [2025-03-08T01:57:00.465Z] Checked if tokens are valid: true, expires at: 1741402311857
+[debug] [2025-03-08T01:57:00.465Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/(default) [none]
+[debug] [2025-03-08T01:57:00.768Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/(default) 404
+[debug] [2025-03-08T01:57:00.768Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/(default) {"error":{"code":404,"message":"Project 'mrp-red-print' or database '(default)' does not exist.","status":"NOT_FOUND"}}
+[debug] [2025-03-08T01:57:00.769Z] error getting database type:  Request to https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/(default) had HTTP Error: 404, Project 'mrp-red-print' or database '(default)' does not exist. {"name":"FirebaseError","children":[],"context":{"body":{"error":{"code":404,"message":"Project 'mrp-red-print' or database '(default)' does not exist.","status":"NOT_FOUND"}},"response":{"statusCode":404}},"exit":1,"message":"Request to https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/(default) had HTTP Error: 404, Project 'mrp-red-print' or database '(default)' does not exist.","status":404}
+[info] (default) does not exist in project mrp-red-print.
+[debug] [2025-03-08T01:57:00.770Z] database_type: DATABASE_DOES_NOT_EXIST
+[debug] [2025-03-08T01:57:48.239Z] Checked if tokens are valid: true, expires at: 1741402311857
+[debug] [2025-03-08T01:57:48.239Z] Checked if tokens are valid: true, expires at: 1741402311857
+[debug] [2025-03-08T01:57:48.239Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/firemrp [none]
+[debug] [2025-03-08T01:57:48.404Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/firemrp 404
+[debug] [2025-03-08T01:57:48.404Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/firemrp {"error":{"code":404,"message":"Project 'mrp-red-print' or database 'firemrp' does not exist.","status":"NOT_FOUND"}}
+[debug] [2025-03-08T01:57:48.404Z] error getting database type:  Request to https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/firemrp had HTTP Error: 404, Project 'mrp-red-print' or database 'firemrp' does not exist. {"name":"FirebaseError","children":[],"context":{"body":{"error":{"code":404,"message":"Project 'mrp-red-print' or database 'firemrp' does not exist.","status":"NOT_FOUND"}},"response":{"statusCode":404}},"exit":1,"message":"Request to https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/firemrp had HTTP Error: 404, Project 'mrp-red-print' or database 'firemrp' does not exist.","status":404}
+[info] firemrp does not exist in project mrp-red-print.
+[debug] [2025-03-08T01:57:48.405Z] database_type: DATABASE_DOES_NOT_EXIST
+[debug] [2025-03-08T02:00:54.076Z] Checked if tokens are valid: true, expires at: 1741402311857
+[debug] [2025-03-08T02:00:54.076Z] Checked if tokens are valid: true, expires at: 1741402311857
+[debug] [2025-03-08T02:00:54.077Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/firemrp [none]
+[debug] [2025-03-08T02:00:54.328Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/firemrp 404
+[debug] [2025-03-08T02:00:54.329Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/firemrp {"error":{"code":404,"message":"Project 'mrp-red-print' or database 'firemrp' does not exist.","status":"NOT_FOUND"}}
+[debug] [2025-03-08T02:00:54.329Z] error getting database type:  Request to https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/firemrp had HTTP Error: 404, Project 'mrp-red-print' or database 'firemrp' does not exist. {"name":"FirebaseError","children":[],"context":{"body":{"error":{"code":404,"message":"Project 'mrp-red-print' or database 'firemrp' does not exist.","status":"NOT_FOUND"}},"response":{"statusCode":404}},"exit":1,"message":"Request to https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/firemrp had HTTP Error: 404, Project 'mrp-red-print' or database 'firemrp' does not exist.","status":404}
+[info] firemrp does not exist in project mrp-red-print.
+[debug] [2025-03-08T02:00:54.330Z] database_type: DATABASE_DOES_NOT_EXIST
+[debug] [2025-03-08T02:01:06.743Z] Checked if tokens are valid: true, expires at: 1741402311857
+[debug] [2025-03-08T02:01:06.743Z] Checked if tokens are valid: true, expires at: 1741402311857
+[debug] [2025-03-08T02:01:06.743Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/mrp-red-print [none]
+[debug] [2025-03-08T02:01:07.001Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/mrp-red-print 404
+[debug] [2025-03-08T02:01:07.001Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/mrp-red-print {"error":{"code":404,"message":"Project 'mrp-red-print' or database 'mrp-red-print' does not exist.","status":"NOT_FOUND"}}
+[debug] [2025-03-08T02:01:07.001Z] error getting database type:  Request to https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/mrp-red-print had HTTP Error: 404, Project 'mrp-red-print' or database 'mrp-red-print' does not exist. {"name":"FirebaseError","children":[],"context":{"body":{"error":{"code":404,"message":"Project 'mrp-red-print' or database 'mrp-red-print' does not exist.","status":"NOT_FOUND"}},"response":{"statusCode":404}},"exit":1,"message":"Request to https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/mrp-red-print had HTTP Error: 404, Project 'mrp-red-print' or database 'mrp-red-print' does not exist.","status":404}
+[info] mrp-red-print does not exist in project mrp-red-print.
+[debug] [2025-03-08T02:01:07.002Z] database_type: DATABASE_DOES_NOT_EXIST
+[debug] [2025-03-08T02:02:34.768Z] Checked if tokens are valid: true, expires at: 1741402311857
+[debug] [2025-03-08T02:02:34.768Z] Checked if tokens are valid: true, expires at: 1741402311857
+[debug] [2025-03-08T02:02:34.769Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/null [none]
+[debug] [2025-03-08T02:02:35.047Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/null 404
+[debug] [2025-03-08T02:02:35.047Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/null {"error":{"code":404,"message":"Project 'mrp-red-print' or database 'null' does not exist.","status":"NOT_FOUND"}}
+[debug] [2025-03-08T02:02:35.047Z] error getting database type:  Request to https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/null had HTTP Error: 404, Project 'mrp-red-print' or database 'null' does not exist. {"name":"FirebaseError","children":[],"context":{"body":{"error":{"code":404,"message":"Project 'mrp-red-print' or database 'null' does not exist.","status":"NOT_FOUND"}},"response":{"statusCode":404}},"exit":1,"message":"Request to https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/null had HTTP Error: 404, Project 'mrp-red-print' or database 'null' does not exist.","status":404}
+[info] null does not exist in project mrp-red-print.
+[debug] [2025-03-08T02:02:35.048Z] database_type: DATABASE_DOES_NOT_EXIST
+[debug] [2025-03-08T02:04:35.383Z] ----------------------------------------------------------------------
+[debug] [2025-03-08T02:04:35.385Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\bozoh\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-03-08T02:04:35.385Z] CLI Version:   13.33.0
+[debug] [2025-03-08T02:04:35.386Z] Platform:      win32
+[debug] [2025-03-08T02:04:35.386Z] Node Version:  v22.14.0
+[debug] [2025-03-08T02:04:35.386Z] Time:          Fri Mar 07 2025 23:04:35 GMT-0300 (Horário Padrão de Brasília)
+[debug] [2025-03-08T02:04:35.386Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-03-08T02:04:35.391Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-03-08T02:04:35.391Z] > authorizing via signed-in user (jeffersonload@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\bozoh\Downloads\mrp_red
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-03-08T02:04:53.266Z] Checked if tokens are valid: true, expires at: 1741402311857
+[debug] [2025-03-08T02:04:53.266Z] Checked if tokens are valid: true, expires at: 1741402311857
+[debug] [2025-03-08T02:04:53.268Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2025-03-08T02:04:55.109Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-03-08T02:04:55.110Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project mrp-red-print (mrp-red-print) 
+[info] 
+=== Firestore Setup
+[debug] [2025-03-08T02:04:56.194Z] Checked if tokens are valid: true, expires at: 1741402311857
+[debug] [2025-03-08T02:04:56.194Z] Checked if tokens are valid: true, expires at: 1741402311857
+[debug] [2025-03-08T02:04:56.195Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/mrp-red-print/services/firestore.googleapis.com [none]
+[debug] [2025-03-08T02:04:56.195Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/mrp-red-print/services/firestore.googleapis.com x-goog-quota-user=projects/mrp-red-print
+[debug] [2025-03-08T02:04:57.452Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/mrp-red-print/services/firestore.googleapis.com 200
+[debug] [2025-03-08T02:04:57.452Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/mrp-red-print/services/firestore.googleapis.com [omitted]
+[debug] [2025-03-08T02:04:57.453Z] Checked if tokens are valid: true, expires at: 1741402311857
+[debug] [2025-03-08T02:04:57.453Z] Checked if tokens are valid: true, expires at: 1741402311857
+[debug] [2025-03-08T02:04:57.453Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/(default) [none]
+[debug] [2025-03-08T02:04:57.681Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/(default) 404
+[debug] [2025-03-08T02:04:57.682Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/(default) {"error":{"code":404,"message":"Project 'mrp-red-print' or database '(default)' does not exist.","status":"NOT_FOUND"}}
+[debug] [2025-03-08T02:04:57.683Z] error getting database type:  Request to https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/(default) had HTTP Error: 404, Project 'mrp-red-print' or database '(default)' does not exist. {"name":"FirebaseError","children":[],"context":{"body":{"error":{"code":404,"message":"Project 'mrp-red-print' or database '(default)' does not exist.","status":"NOT_FOUND"}},"response":{"statusCode":404}},"exit":1,"message":"Request to https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/(default) had HTTP Error: 404, Project 'mrp-red-print' or database '(default)' does not exist.","status":404}
+[info] (default) does not exist in project mrp-red-print.
+[debug] [2025-03-08T02:04:57.684Z] database_type: DATABASE_DOES_NOT_EXIST
+[debug] [2025-03-08T02:05:55.131Z] ----------------------------------------------------------------------
+[debug] [2025-03-08T02:05:55.134Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\bozoh\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-03-08T02:05:55.134Z] CLI Version:   13.33.0
+[debug] [2025-03-08T02:05:55.134Z] Platform:      win32
+[debug] [2025-03-08T02:05:55.134Z] Node Version:  v22.14.0
+[debug] [2025-03-08T02:05:55.135Z] Time:          Fri Mar 07 2025 23:05:55 GMT-0300 (Horário Padrão de Brasília)
+[debug] [2025-03-08T02:05:55.135Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-03-08T02:05:55.141Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-03-08T02:05:55.141Z] > authorizing via signed-in user (jeffersonload@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\bozoh\Downloads\mrp_red
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2025-03-08T02:06:28.632Z] ----------------------------------------------------------------------
+[debug] [2025-03-08T02:06:28.634Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\bozoh\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-03-08T02:06:28.634Z] CLI Version:   13.33.0
+[debug] [2025-03-08T02:06:28.634Z] Platform:      win32
+[debug] [2025-03-08T02:06:28.634Z] Node Version:  v22.14.0
+[debug] [2025-03-08T02:06:28.634Z] Time:          Fri Mar 07 2025 23:06:28 GMT-0300 (Horário Padrão de Brasília)
+[debug] [2025-03-08T02:06:28.635Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-03-08T02:06:28.639Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-03-08T02:06:28.640Z] > authorizing via signed-in user (jeffersonload@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\bozoh\Downloads\mrp_red
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-03-08T02:06:45.373Z] Checked if tokens are valid: true, expires at: 1741402311857
+[debug] [2025-03-08T02:06:45.373Z] Checked if tokens are valid: true, expires at: 1741402311857
+[debug] [2025-03-08T02:06:45.375Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2025-03-08T02:06:46.106Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-03-08T02:06:46.106Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project mrp-red-print (mrp-red-print) 
+[info] 
+=== Firestore Setup
+[debug] [2025-03-08T02:06:47.099Z] Checked if tokens are valid: true, expires at: 1741402311857
+[debug] [2025-03-08T02:06:47.100Z] Checked if tokens are valid: true, expires at: 1741402311857
+[debug] [2025-03-08T02:06:47.100Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/mrp-red-print/services/firestore.googleapis.com [none]
+[debug] [2025-03-08T02:06:47.100Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/mrp-red-print/services/firestore.googleapis.com x-goog-quota-user=projects/mrp-red-print
+[debug] [2025-03-08T02:06:48.164Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/mrp-red-print/services/firestore.googleapis.com 200
+[debug] [2025-03-08T02:06:48.164Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/mrp-red-print/services/firestore.googleapis.com [omitted]
+[debug] [2025-03-08T02:06:48.165Z] Checked if tokens are valid: true, expires at: 1741402311857
+[debug] [2025-03-08T02:06:48.165Z] Checked if tokens are valid: true, expires at: 1741402311857
+[debug] [2025-03-08T02:06:48.165Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/(default) [none]
+[debug] [2025-03-08T02:06:48.398Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/(default) 404
+[debug] [2025-03-08T02:06:48.398Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/(default) {"error":{"code":404,"message":"Project 'mrp-red-print' or database '(default)' does not exist.","status":"NOT_FOUND"}}
+[debug] [2025-03-08T02:06:48.399Z] error getting database type:  Request to https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/(default) had HTTP Error: 404, Project 'mrp-red-print' or database '(default)' does not exist. {"name":"FirebaseError","children":[],"context":{"body":{"error":{"code":404,"message":"Project 'mrp-red-print' or database '(default)' does not exist.","status":"NOT_FOUND"}},"response":{"statusCode":404}},"exit":1,"message":"Request to https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/(default) had HTTP Error: 404, Project 'mrp-red-print' or database '(default)' does not exist.","status":404}
+[info] (default) does not exist in project mrp-red-print.
+[debug] [2025-03-08T02:06:48.400Z] database_type: DATABASE_DOES_NOT_EXIST
+[debug] [2025-03-08T02:08:45.679Z] Checked if tokens are valid: true, expires at: 1741402311857
+[debug] [2025-03-08T02:08:45.680Z] Checked if tokens are valid: true, expires at: 1741402311857
+[debug] [2025-03-08T02:08:45.680Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/default [none]
+[debug] [2025-03-08T02:08:46.089Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/default 404
+[debug] [2025-03-08T02:08:46.089Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/default {"error":{"code":404,"message":"Project 'mrp-red-print' or database 'default' does not exist.","status":"NOT_FOUND"}}
+[debug] [2025-03-08T02:08:46.090Z] error getting database type:  Request to https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/default had HTTP Error: 404, Project 'mrp-red-print' or database 'default' does not exist. {"name":"FirebaseError","children":[],"context":{"body":{"error":{"code":404,"message":"Project 'mrp-red-print' or database 'default' does not exist.","status":"NOT_FOUND"}},"response":{"statusCode":404}},"exit":1,"message":"Request to https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/default had HTTP Error: 404, Project 'mrp-red-print' or database 'default' does not exist.","status":404}
+[info] default does not exist in project mrp-red-print.
+[debug] [2025-03-08T02:08:46.091Z] database_type: DATABASE_DOES_NOT_EXIST
+[debug] [2025-03-08T02:09:51.116Z] Checked if tokens are valid: true, expires at: 1741402311857
+[debug] [2025-03-08T02:09:51.116Z] Checked if tokens are valid: true, expires at: 1741402311857
+[debug] [2025-03-08T02:09:51.117Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/bozohokage [none]
+[debug] [2025-03-08T02:09:51.347Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/bozohokage 404
+[debug] [2025-03-08T02:09:51.347Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/bozohokage {"error":{"code":404,"message":"Project 'mrp-red-print' or database 'bozohokage' does not exist.","status":"NOT_FOUND"}}
+[debug] [2025-03-08T02:09:51.348Z] error getting database type:  Request to https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/bozohokage had HTTP Error: 404, Project 'mrp-red-print' or database 'bozohokage' does not exist. {"name":"FirebaseError","children":[],"context":{"body":{"error":{"code":404,"message":"Project 'mrp-red-print' or database 'bozohokage' does not exist.","status":"NOT_FOUND"}},"response":{"statusCode":404}},"exit":1,"message":"Request to https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/bozohokage had HTTP Error: 404, Project 'mrp-red-print' or database 'bozohokage' does not exist.","status":404}
+[info] bozohokage does not exist in project mrp-red-print.
+[debug] [2025-03-08T02:09:51.348Z] database_type: DATABASE_DOES_NOT_EXIST
+[debug] [2025-03-08T02:11:37.372Z] Checked if tokens are valid: true, expires at: 1741402311857
+[debug] [2025-03-08T02:11:37.372Z] Checked if tokens are valid: true, expires at: 1741402311857
+[debug] [2025-03-08T02:11:37.373Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/default [none]
+[debug] [2025-03-08T02:11:37.719Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/default 404
+[debug] [2025-03-08T02:11:37.719Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/default {"error":{"code":404,"message":"Project 'mrp-red-print' or database 'default' does not exist.","status":"NOT_FOUND"}}
+[debug] [2025-03-08T02:11:37.720Z] error getting database type:  Request to https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/default had HTTP Error: 404, Project 'mrp-red-print' or database 'default' does not exist. {"name":"FirebaseError","children":[],"context":{"body":{"error":{"code":404,"message":"Project 'mrp-red-print' or database 'default' does not exist.","status":"NOT_FOUND"}},"response":{"statusCode":404}},"exit":1,"message":"Request to https://firestore.googleapis.com/v1/projects/mrp-red-print/databases/default had HTTP Error: 404, Project 'mrp-red-print' or database 'default' does not exist.","status":404}
+[info] default does not exist in project mrp-red-print.
+[debug] [2025-03-08T02:11:37.720Z] database_type: DATABASE_DOES_NOT_EXIST
